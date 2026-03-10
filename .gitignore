@@ -1,0 +1,68 @@
+# -------------------------
+# Project outputs
+# -------------------------
+runs/
+work/
+output/
+*.log
+*.out
+*.chk
+*.rwf
+*.int
+*.d2e
+*.scr
+*.fchk
+*.cube
+core
+core.*
+
+# If you keep machine-specific config separate
+config.ini
+
+# -------------------------
+# CREST / xTB files
+# -------------------------
+crest_*
+conf*.xyz
+confcross.xyz
+crest_conformers.xyz
+crest_conformers.xyz.sorted
+crest_ensemble.xyz
+crest_rotamers.xyz
+crest_dynamics.trj
+cregen.log
+cre_members
+crest.energies
+crest.restart
+ensemble_energies.log
+coord
+coord.original
+scoord*
+bondlengths
+wbo
+gfnff_*
+xtb*
+charges
+molden.input
+.vibspectrum
+*.trj
+
+# -------------------------
+# Python
+# -------------------------
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.venv/
+venv/
+
+# -------------------------
+# OS / editor
+# -------------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
